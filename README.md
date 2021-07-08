@@ -50,7 +50,7 @@ Let's activate the service:
 sudo systemctl enable asuscharge70.service
 </code>
 
-Now reboot your system and you are done. After Everyboot it will be set to 70%.\
+Now reboot your system and you are done. After Everyboot it will be set to 70%.
 
 # How to change battery percentage thresold?
 Just open asus folder from your home directory and open asuscharge70.sh with any text editor and change 70 to your desired value and you are done.
