@@ -1,0 +1,11 @@
+[Unit]
+Description=Limit battery thresold
+
+[Service]
+ExecStart=/home/xxx/asus/asuscharge70.sh
+Restart=always
+WorkingDirectory=/home/xxx/
+User=root
+
+[Install]
+WantedBy=multi-user.target
