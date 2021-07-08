@@ -1,4 +1,4 @@
-# Asus_Battery_Charge_Limiter
+# Asus_Battery_Charge_Limiter{Linux}
 This is just to make the process automatic for the amazing python script made by [cforrester1988](https://github.com/cforrester1988). By following the below steps you can limit your battery thresold to your desired percentage value like 10--20--30--90% as per your need for asus laptops. I am not sure about other laptop brands.
 #### To watch the original github repo here is the link:https://github.com/cforrester1988/asus-charge-control
 ## Step 1
