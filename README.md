@@ -32,3 +32,11 @@ Now let's install module:
 <code>
   sudo pip3 install asus-charge-control
 </code>
+
+## Step 4
+**Now download latest release [click here](https://github.com/ATinyLearner/Asus_Battery_Charge_Limiter/archive/refs/heads/main.zip)**\
+After download extract the zip file and you will get 1 folder named **asus** and a file named **asuscharge70.service**\
+Use following
+
+
+
