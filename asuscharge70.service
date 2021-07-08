@@ -2,9 +2,9 @@
 Description=Limit battery thresold
 
 [Service]
-ExecStart=/home/xxx/asus/asuscharge70.sh
+ExecStart=/home/your_user_name/asus/asuscharge70.sh
 Restart=always
-WorkingDirectory=/home/xxx/
+WorkingDirectory=/home/your_user_name/
 User=root
 
 [Install]
