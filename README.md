@@ -34,9 +34,20 @@ Now let's install module:
 </code>
 
 ## Step 4
-**Now download latest release [click here](https://github.com/ATinyLearner/Asus_Battery_Charge_Limiter/archive/refs/heads/main.zip)**\
+a.**Now download latest release [click here](https://github.com/ATinyLearner/Asus_Battery_Charge_Limiter/archive/refs/heads/main.zip)**\
 After download extract the zip file and you will get 1 folder named **asus** and a file named **asuscharge70.service**\
-Use following
+b.Now open the extracted folder and copy asus folder to your home directory
+c.Now open the asuscharge70.service using any text editor and input ur user name in place of **your_user_name** then save the file and do the following:
 
+<code>
+sudo cp asuscharge70.service /etc/systemd/system/
+</code>
 
+## Step 5
+Let's activate the service:
 
+<code>
+sudo systemctl enable asuscharge70.service
+</code>
+
+Now reboot your system and you are done. After Everyboot it will be set to 70%.
