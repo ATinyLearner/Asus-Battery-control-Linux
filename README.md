@@ -23,7 +23,7 @@ Install python3 and pip3 also
 
 #### for Solus OS use following:
 <code>
-  sudo eopkg install python3 python3-pip
+  sudo eopkg install python3 pip
 </code>
 
 ## Step 3
