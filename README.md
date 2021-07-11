@@ -36,12 +36,12 @@ Now let's install module:
 ## Step 4
 **a.** **Now download latest release [click here](https://github.com/ATinyLearner/Asus_Battery_Charge_Limiter/archive/refs/heads/main.zip)**\
 After download extract the zip file and you will get 1 folder named **asus** and a file named **asuscharge70.service**\
-**b.** Now open the extracted folder and copy asus folder to your home directory.\ Now in terminal type the following:
+**b.** Now open the extracted folder and copy asus folder to your home directory.\ 
+Now in terminal type the following:
 
 <code>
 sudo chmod +x /asus/asuscharge70.sh
 </code>
-
 **c.** Now open the asuscharge70.service using any text editor and input your user name in place of **your_user_name** then save the file and do the following:
 
 <code>
